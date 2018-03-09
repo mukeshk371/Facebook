@@ -9,6 +9,7 @@
 <link rel="stylesheet" text="text/css" href="../resources/css/icon.css">
 <link rel="stylesheet" text="text/css" href="../resources/css/div.css">
 <link rel="stylesheet" text="text/css" href="../resources/css/nav2.css">
+<link rel="stylesheet" text="text/css" href="../resources/css/nevig.css">
 
 </head>
 <body>
@@ -21,7 +22,7 @@
 </form> 
 </div>
 
-<div class="nav2">
+<div class="navbar">
   
   <a><img src="../resources/images/1.jpg" width="25px" height="20px" style="border-radius:50%"></a>
   <a href="profile.html"><b>Mukesh</b> </a>
@@ -31,7 +32,26 @@
   <a><img src="../resources/images/logo/notification.png" width="20px" height="20px"></a>
   <a> | </a>
   <a><img src="../resources/images/logo/help.png" width="20px" height="20px"></a>
-  <a><img src="../resources/images/logo/drop.png" width="20px" height="20px"></a>
+
+  <div class="dropdown">
+    <button class="dropbtn"><img src="../resources/images/logo/drop.png" width="20px" height="20px">
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+	    <a href="views/home/home.html">Create Page</a>
+		<hr>
+	    <a href="views/home/home.html">Create Group</a>
+	    <a href="views/home/home.html">New Groups</a>
+		<hr>
+		<a href="views/home/home.html">Create Ads</a>
+		<a href="views/home/home.html">Advertising on Facebook</a>
+		<hr>
+		<a href="views/home/home.html">Activity Log</a>
+		<a href="views/home/home.html">News Feed Preferences</a>
+		<a href="views/home/home.html">Settings</a>
+		<a href="views/home/home.html">Log Out</a>
+	</div>
+  </div>
 </div>
 
 <div style = "background-color: #E9EBEE; height:1000px; width:75%; float:left;" >
@@ -56,6 +76,21 @@
 <div style = "background-color: #E9EBEE; height:100%; width:60%; float:left;">
 
 <p><div class="main" style="height:200px; float:center;"></p>
+<div class="nav2">
+  <a class="active" href="#home">
+  <img src="../resources/images/logo/edit.png" width="15px" height="15px"></a>
+  <a><b>Compose Post</b></a>
+  <a> | </a>
+  
+  <a href="#news">
+  <img src="../resources/images/logo/photo.png" width="15px" height="15px"></a>
+  <a><b>Photo/Video Album</b></a>
+  <a> | </a>
+  
+  <a href="#contact">
+  <img src="../resources/images/logo/photo.png" width="15px" height="15px"></a>
+  <a><b>Live Video</b></a>
+</div>
 </div>
 
 <p><div class="main" style="height:400px; float:center;"></p>
